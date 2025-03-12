@@ -31,6 +31,8 @@ class Lab03Activity : AppCompatActivity() {
         mBoard.rowCount = rows
         mBoard.columnCount = columns
 
+        Toast.makeText(this, "$rows $columns", Toast.LENGTH_SHORT).show()
+
         if (savedInstanceState != null) {
             val savedState = savedInstanceState.getIntArray("gameState")
             mBoardModel = MemoryBoardView(mBoard, columns, rows)

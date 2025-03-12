@@ -10,6 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import pl.wsei.pam.lab01.Lab01Activity
 import pl.wsei.pam.lab01.R
+import pl.wsei.pam.lab02.Lab02Activity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
     fun onClickMainBtnRunLab02(v: View){
-        val intent = Intent(this, Lab01Activity::class.java)
+        val intent = Intent(this, Lab02Activity::class.java)
         startActivity(intent)
     }
 }
