@@ -28,9 +28,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="112eba" />
-                            <entry key="outputName" value="baseline_cruelty_free_24" />
-                            <entry key="sourceFile" value="D:\Users\yevhenii.solomchenko\StudioProjects\wsei-pam-lab" />
+                            <entry key="outputName" value="wondicon_ui_free_speaker_111240" />
+                            <entry key="sourceFile" value="D:\Users\yevhenii.solomchenko\Downloads\wondicon-ui-free-speaker_111240.svg" />
                           </map>
                         </option>
                       </PersistentState>
